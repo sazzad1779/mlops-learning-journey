@@ -1,5 +1,5 @@
 # Git Documentation
-
+![git_workflow](git_workflow.png)
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installing Git](#Installing-Git)
