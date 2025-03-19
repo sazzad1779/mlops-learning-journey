@@ -64,9 +64,27 @@ Git is a distributed version control system used to track changes in source code
 ---
 ## Basic Git Commands
 ### Configure Git
+- Change Git User for a Specific Repository
+If you only want to change the Git user for the current project:
+```
+git config user.name "NewUsername"
+git config user.email "newemail@example.com"
+```
+To verify
+```
+git config --local user.name
+git config --local user.email
+```
+- Change Git User Globally
+If you want to update the Git user for all repositories:
 ```sh
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
+```
+To verify the global settings:
+```
+git config --global user.name
+git config --global user.email
 ```
 
 ### Initialize a Repository
