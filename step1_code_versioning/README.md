@@ -68,8 +68,8 @@ Git is a distributed version control system used to track changes in source code
 
 If you only want to change the Git user for the current project:
 ```
-git config user.name "NewUsername"
-git config user.email "newemail@example.com"
+git config  user.name "Your Name"
+git config  user.email "your.email@example.com"
 ```
 To verify
 ```
